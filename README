@@ -1,0 +1,13 @@
+Sample openoffice extension using scala (2.8.0) and built with sbt
+
+* Compile:
+-------------------------------------------------
+sbt
+:> update
+:> compile
+:> package
+:> create_extension
+
+* create_extension will create an oxt file under target using project name
+* configure openoffice sdk path on project/build/SampleAddonProject
+
